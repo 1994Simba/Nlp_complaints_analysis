@@ -55,7 +55,8 @@ municipal-complaints-nlp/
 └── README.md
 
 🔄 Visual Pipeline Diagram
-´´´
+
+```plaintext
 ┌──────────────────────────────────────────────────────────────┐
 │                        NLP PIPELINE                          │
 └──────────────────────────────────────────────────────────────┘
@@ -97,7 +98,7 @@ Raw Data
 ┌──────────────────────────┐
 │ Notebook Visualization   │
 └──────────────────────────┘
-´´´
+
 
 🧱 Pipeline Architecture
 
@@ -130,9 +131,9 @@ Raw Data
 
 📦 Data
 Sample Dataset (included)
-´´
+```plaintext
 data/sample_complaints.csv
-´´
+
 Full Dataset (not included)
 Excluded due to GitHub’s 100 MB limit.
 Downloadable from the CFPB website.
