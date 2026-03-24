@@ -131,8 +131,9 @@ Raw Data
 
 📦 Data
 Sample Dataset (included)
-```plaintext
+```
 data/sample_complaints.csv
+```
 
 Full Dataset (not included)
 Excluded due to GitHub’s 100 MB limit.
@@ -140,28 +141,29 @@ Downloadable from the CFPB website.
 
 ▶️ Running the Pipeline with the Sample Data
 1. Preprocessing
-´´´
+```
 python src/preprocess.py --input data/sample_complaints.csv
-´´´
+```
 2. Vectorization + Topic Modeling
-´´´
+```
 python src/vectorize_and_topics.py --input data/sample_complaints.csv
-´´´
+```
 ▶️ Running with the Full Dataset (Local Only)
-´´´
+```
 python src/preprocess.py --input data/consumer_complaints_with_clusters.csv
-´´´
+```
 🧪 Notebook Exploration
-´´´
+```
 jupyter notebook notebooks/exploration.ipynb
-´´´
+```
 🛠️ Installation
-´´´
+```
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-´´´
-🧹 Repository Notes
+```
+
+## 🧹 Repository Notes
 • .venv/ excluded
 • large datasets excluded
 • .ipynb_checkpoints/ removed
