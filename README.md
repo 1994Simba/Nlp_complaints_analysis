@@ -56,7 +56,7 @@ municipal-complaints-nlp/
 
 🔄 Visual Pipeline Diagram
 
-```plaintext
+```
 ┌──────────────────────────────────────────────────────────────┐
 │                        NLP PIPELINE                          │
 └──────────────────────────────────────────────────────────────┘
@@ -98,6 +98,7 @@ Raw Data
 ┌──────────────────────────┐
 │ Notebook Visualization   │
 └──────────────────────────┘
+```
 
 
 🧱 Pipeline Architecture
