@@ -56,7 +56,7 @@ municipal-complaints-nlp/
 
 🔄 Visual Pipeline Diagram
 
-```
+```bash
 ┌──────────────────────────────────────────────────────────────┐
 │                        NLP PIPELINE                          │
 └──────────────────────────────────────────────────────────────┘
@@ -133,7 +133,7 @@ Raw Data
 📦 Data
 Sample Dataset (included)
 
-```
+```bash
 data/sample_complaints.csv
 ```
 
@@ -144,31 +144,31 @@ Downloadable from the CFPB website.
 ▶️ Running the Pipeline with the Sample Data
 1. Preprocessing
 
-```
+```bash
 python src/preprocess.py --input data/sample_complaints.csv
 ```
 
 2. Vectorization + Topic Modeling
 
-```
+```bash
 python src/vectorize_and_topics.py --input data/sample_complaints.csv
 ```
 
 ▶️ Running with the Full Dataset (Local Only)
 
-```
+```bash
 python src/preprocess.py --input data/consumer_complaints_with_clusters.csv
 ```
 
 🧪 Notebook Exploration
 
-```
+```bash
 jupyter notebook notebooks/exploration.ipynb
 ```
 
 🛠️ Installation
 
-```
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
