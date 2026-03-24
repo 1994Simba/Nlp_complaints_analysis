@@ -131,6 +131,7 @@ Raw Data
 
 📦 Data
 Sample Dataset (included)
+
 ```
 data/sample_complaints.csv
 ```
@@ -141,22 +142,31 @@ Downloadable from the CFPB website.
 
 ▶️ Running the Pipeline with the Sample Data
 1. Preprocessing
+
 ```
 python src/preprocess.py --input data/sample_complaints.csv
 ```
+
 2. Vectorization + Topic Modeling
+
 ```
 python src/vectorize_and_topics.py --input data/sample_complaints.csv
 ```
+
 ▶️ Running with the Full Dataset (Local Only)
+
 ```
 python src/preprocess.py --input data/consumer_complaints_with_clusters.csv
 ```
+
 🧪 Notebook Exploration
+
 ```
 jupyter notebook notebooks/exploration.ipynb
 ```
+
 🛠️ Installation
+
 ```
 python3 -m venv .venv
 source .venv/bin/activate
