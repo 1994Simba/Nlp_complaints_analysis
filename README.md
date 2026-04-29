@@ -3,10 +3,11 @@
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="100%" src="https://svg-banners.vercel.app/api?type=origin&text1=Municipal%20Complaints%20NLP%20Analysis&width=1200&height=250" alt="Project Banner">
+  <img width="100%" src="https://svg-banners.vercel.app/api?type=origin&text1=CFPB%20Consumer%20Complaints%20NLP%20Analysis&width=1200&height=250" alt="Project Banner">
 </p>
 
-<h3 align="center">A clean, modern NLP pipeline for analyzing municipal consumer complaints</h3>
+<h3 align="center">A clean, modern NLP pipeline for analyzing CFPB consumer complaint narratives</h3>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue.svg">
