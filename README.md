@@ -54,6 +54,7 @@ municipal-complaints-nlp/
 │
 ├── requirements.txt
 └── README.md
+```
 
 🔄 Visual Pipeline Diagram
 
